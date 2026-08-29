@@ -10,7 +10,7 @@ You can benefit from the free inference API of NVidia. They provide a lot of mod
 The API key looks like "nvapi-x-xxxxxxxxx..."
 
 <p align="left">
-  <img src="assets/00-OpenCode-And-Nvidia-API-img2.png"  width="20%" >
+  <img src="assets/00-OpenCode-And-Nvidia-API-img2.png"  width="40%" >
 </p>
 
 ## Step 2 - Install OpenCode 
@@ -55,5 +55,5 @@ Here I pick "nemotron-3.5-lightning-30b-a3b" which is a small mixture-of-experts
 The token generation speed is excellent (at least with this small model) and comparable to what you would get if you were chatting with ChatGPT.
 
 <p align="left">
-  <img src="assets/00-OpenCode-And-Nvidia-API-img1.png"  width="60%" >
+  <img src="assets/00-OpenCode-And-Nvidia-API-img1.png"  width="90%" >
 </p>
