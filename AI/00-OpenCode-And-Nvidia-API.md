@@ -2,7 +2,7 @@
 You can benefit from the free inference API of NVidia. They provide a lot of models and decent speed. Obviously do not use it for sensitive or personal information. But this is a great opportunity for opensource work, to play with agents, test skills, etc. at no cost.
 
 ## Step 1 - Create a NVidia NIM account
-- Navigate to https://build.nvidia.com/models
+- Navigate to [https://build.nvidia.com/models](https://build.nvidia.com/models)  
 - Sign-up
 - In the upper-right corner, select the profile then "API keys".
 - Generate an API key and keep the value
@@ -17,7 +17,7 @@ The API key looks like "nvapi-x-xxxxxxxxx..."
 Can be skipped of course if that's already in place. It is one of the best opensource harness and is lighter than Claude, Codex or Copilot.
 Another good option is Pi but configuration is different and not covered here.
 
-Easiest way to install OpenCode is through npm. Refer to https://opencode.ai/download for other methods.
+Easiest way to install OpenCode is through npm. Refer to  [https://opencode.ai/download](https://opencode.ai/download) for other methods.
 
 ```bash
 npm i -g opencode-ai
