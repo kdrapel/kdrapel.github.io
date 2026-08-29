@@ -1,5 +1,5 @@
 # How to wire OpenCode with the free inference API of NVidia
-You can benefit from the free inference API of NVidia. They provide a lot of models and decent speed. Obviously do not use it for sensitive or personal information. But this is a great opportunity for opensource work, to play with agents, test skills, etc. at no cost.
+You can benefit from NVIDIA's free inference API. It offers many models with decent speed. Avoid using it for sensitive or personal data, but it's a great opportunity for open-source work, allowing you to play with agents and test skills at no cost.
 
 ## Step 1 - Create a NVidia NIM account
 - Navigate to [https://build.nvidia.com/models](https://build.nvidia.com/models)  
@@ -14,7 +14,7 @@ The API key looks like "nvapi-x-xxxxxxxxx..."
 </p>
 
 ## Step 2 - Install OpenCode 
-Can be skipped of course if that's already in place. It is one of the best opensource harness and is lighter than Claude, Codex or Copilot.
+Can be skipped of course if that's already in place. It is one of the best open-source harness and is lighter than Claude, Codex or Copilot.
 Another good option is Pi but configuration is different and not covered here.
 
 Easiest way to install OpenCode is through npm. Refer to  [https://opencode.ai/download](https://opencode.ai/download) for other methods.
@@ -50,7 +50,7 @@ Start OpenCode, then change the model with /models.
 
 You should have a category called "NVIDIA NIM". The list is constantly evolving and the resources allocated to each model may vary.
 The NVidia models (Nemotron) have normally a good speed and decent quality of service. This may not be the case for other heavier or trendy models.
-Here I pick "nemotron-3.5-lightning-30b-a3b" which is a small mixture-of-experts model (MoE) but capable for light tasks.
+Here I pick "nemotron-3.5-lightning-30b-a3b", a small mixture-of-experts (MoE) model capable of handling light to medium tasks.
 
 The token generation speed is excellent (at least with this small model) and comparable to what you would get if you were chatting with ChatGPT.
 
