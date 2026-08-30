@@ -1,10 +1,10 @@
 # Tuning Ornith-1.5-35B-A3B on a 16 GB Radeon RX 9060 XT with llama.cpp
 
 I spent some time tuning **Ornith-1.5-35B-A3B** using the **Vulkan build of `llama.cpp` master**, at commit `cc231cb0da565440cf6a3e5b55dfeba477972cb6` (build 10701), on a **16 GB AMD Radeon RX 9060 XT**, with a particular focus on finding a configuration that remains fast and stable at long context sizes.
-
 On this setup, performance shows a very sharp VRAM-related threshold. Once that threshold is crossed, prefill speed can collapse even though the model still technically fits in VRAM.
-
 The final configuration I settled on is conservative rather than the absolute fastest at 32k/64k, because I sometimes use contexts close to **120k tokens**.
+
+Important: this is the version without the MTP. I will prepare another article about this.
 
 ---
 
